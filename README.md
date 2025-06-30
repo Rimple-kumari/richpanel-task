@@ -60,15 +60,16 @@ FB_APP_SECRET=your_facebook_app_secret
 PAGE_ACCESS_TOKEN=your_page_access_token
 VERIFY_TOKEN=your_custom_verify_token
 npm run dev
-
-💻 Frontend Setup
-bash
+---
+##💻 Frontend Setup
+```bash
 Copy
 Edit
 cd ../client
 npm install
 npm start
-🔐 Facebook App Setup
+##🔐 Facebook App Setup
+```bash
 Create a Facebook App from Facebook for Developers.
 
 Enable Messenger and Webhooks in the app.
