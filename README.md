@@ -66,14 +66,16 @@ bash
 Copy
 Edit
 npm run dev
-💻 Frontend Setup
+
+## 💻 **Frontend Setup**
 bash
 Copy
 Edit
 cd client
 npm install
 npm start
-🔐 Facebook App Setup
+
+## 🔐 **Facebook App Setup**
 Create a Facebook App from Facebook for Developers.
 
 Enable Messenger and Webhooks in the app.
@@ -90,7 +92,7 @@ pages_read_engagement
 
 Set the Webhook Callback URL and Verify Token in your app settings.
 
-🧪 Testing
+##  🧪 **Testing**
 Use a test Facebook Page and test user account.
 
 Ensure your webhook endpoint is reachable via HTTPS (use ngrok for local testing).
