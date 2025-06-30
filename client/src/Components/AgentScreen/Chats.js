@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import minion from "../../Assets/SpaceMinion.png";
 
 function formatDateTime(dateTimeString) {
   const months = [
