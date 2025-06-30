@@ -7,7 +7,6 @@ import inbox from "../../Assets/inbox.png";
 import logo from "../../Assets/logo.png";
 import people from "../../Assets/people.png";
 import stocks from "../../Assets/stocks.png";
-import minion from "../../Assets/SpaceMinion.png";
 import phone from "../../Assets/phone.png";
 import profile from "../../Assets/profile.png";
 import menu from "../../Assets/menu.jpeg";
