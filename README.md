@@ -40,6 +40,8 @@ richpanel-task/
 ├── .env # API keys and config
 ├── package.json
 └── README.md
+---
+
 ##2️⃣ Backend Setup
  
 cd server
@@ -52,6 +54,7 @@ PAGE_ACCESS_TOKEN=your_page_access_token
 VERIFY_TOKEN=your_custom_token
 Start the backend server:
 npm run dev
+---
 
 ##3️⃣ Frontend Setup
  cd ../client
