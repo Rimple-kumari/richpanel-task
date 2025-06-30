@@ -1,142 +1,92 @@
-🚀 Richpanel Task
-Welcome to Richpanel Task — a sleek, user-friendly frontend project demonstrating integration with Richpanel’s APIs! This README will guide you through everything you need.
+# 📬 richpanel-task
 
-📌 Table of Contents
-🌟 Project Overview
+This is a full-stack web application built as part of a Richpanel interview assignment. The app integrates with the Facebook Graph API to fetch and respond to direct messages from users, mimicking helpdesk functionalities. It provides an organized UI for customer support agents to manage conversations efficiently.
 
-⚙️ Features
+---
 
-🚀 Getting Started
+## 🚀 Features
 
-Prerequisites
+- 🔐 Facebook OAuth-based login & token handling  
+- 📥 Fetch Facebook Page messages using Graph API  
+- 📤 Reply to user DMs directly from the UI  
+- 🧠 Organized interface for viewing conversations  
+- 🌐 Real-time updates using polling (or can be extended with sockets)  
+- ⚙️ Environment-based configuration using .env file  
 
-Installation
+---
 
-Usage
+## 🛠 Tech Stack
 
-🔧 Tech Stack
+### Frontend
+- React.js  
+- Tailwind CSS  
+- Axios  
 
-🛠️ Configuration
+### Backend
+- Node.js  
+- Express.js  
+- Facebook Graph API  
+- dotenv  
 
-📦 Project Structure
+---
 
-✨ To-Do & Roadmap
+## 📂 Folder Structure
+richpanel-task/
+├── client/ # React frontend
+│ └── src/
+│ └── components/ # Reusable UI components
+├── server/ # Node.js backend
+│ └── routes/ # API routes
+├── .env # Environment variables
+├── package.json
+└── README.md
 
-👩‍💻 Contributor
+---
 
-📄 License
+## 🧰 Backend Setup
 
-🌟 Project Overview
-Richpanel Task is a polished showcase of frontend development using React and Richpanel API. The app allows you to:
-
-Fetch and display customer support tickets
-
-Create and update user conversations
-
-Deliver a modern, interactive UI with real-time usability
-
-Whether you’re building a demo, learning React, or showcasing your API integration skills — this project shines! ✨
-
-⚙️ Features
-✅ List Conversations fetched from Richpanel
-
-📝 Create New Ticket with ease
-
-🔄 Update Existing Conversations
-
-📱 Responsive Design — works beautifully on all devices
-
-🧩 Modular & clean architecture for easy extension
-
-🚀 Getting Started
-Prerequisites
-Make sure you have:
-
-Node.js (v14+ recommended)
-
-npm or Yarn
-
-Installation
 bash
-Copy
-Edit
-# 1. Clone the repo
-git clone https://github.com/Rimple‑kumari/richpanel‑task.git
-cd richpanel-task
-
-# 2. Install dependencies
+cd server
 npm install
-# or
-yarn install
-Usage
-🚨 Set up environment variables
-Create a .env file in the root:
 
-ini
+Create a .env file inside the server/ directory with the following content:
+
+env
 Copy
 Edit
-REACT_APP_RICHPANEL_API_KEY=YOUR_API_KEY
-REACT_APP_RICHPANEL_API_SECRET=YOUR_SECRET
-REACT_APP_RICHPANEL_BASE_URL=https://graph.richpanel.com/data-api
-🔧 Run the app
-
-bash
-Copy
-Edit
+PORT=5000
+FB_APP_ID=your_facebook_app_id
+FB_APP_SECRET=your_facebook_app_secret
+PAGE_ACCESS_TOKEN=your_page_access_token
+VERIFY_TOKEN=your_custom_verify_token
+npm run dev
+---
+💻 Frontend Setup
+ cd ../client
+npm install
 npm start
-# or
-yarn start
-Navigate to http://localhost:3000 — enjoy the magic!
 
-🔍 Pro tip: Check src/api/ to see how Richpanel endpoints are integrated and used.
+ 
+##🔐 Facebook App Setup
+bash
+Create a Facebook App from Facebook for Developers.
 
-🔧 Tech Stack
-🛠️ React for frontend UI
+Enable Messenger and Webhooks in the app.
 
-📦 Axios for API requests
+Generate a Page Access Token.
 
-🎨 Styled-components/CSS modules for styling
+Subscribe the app to your Facebook Page with the following permissions:
 
-🚫 ESLint + Prettier for code consistency
+pages_messaging
 
-🎯 Jest + React Testing Library (optional for tests)
+pages_show_list
 
-📦 Project Structure
-java
-Copy
-Edit
-┌── public/           // Static files
-├── src/
-│   ├── api/          // API utility for Richpanel
-│   ├── components/   // Reusable UI components
-│   ├── pages/        // Main views or pages
-│   ├── styles/       // Global styles/themes
-│   ├── App.js        // Root component
-│   └── index.js      // Entry point
-├── .env              // API keys/configuration
-├── package.json      // Project dependencies
-├── README.md         // This documentation
-└── ...
-✨ To-Do & Roadmap
- Add pagination for conversation lists
+pages_read_engagement
 
- Implement search/filter functionality
+Set the Webhook Callback URL and Verify Token in your app setting
+##🧪 Testing
+Use a test Facebook Page and test user account.
 
- Dashboard for statistics & analytics
+Make sure the webhook endpoint is reachable via HTTPS (use ngrok for local testing).
 
- Write unit & integration tests
-
- Enhance with Richpanel widget for live support
-
-Contributions & suggestions are ❤️ welcome!
-
-👩‍💻 Contributor
-Rimple Kumari
-
-Passionate frontend dev from India 🇮🇳
-
-Skilled in React, Node.js, DS & Algorithms, and ML
-
-Reach me at: kumaririmple562@gmail.com
-
-Find more of my projects on My GitHub profile 😉
+Test sending and receiving DMs from the page.
