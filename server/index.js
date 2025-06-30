@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://facebook-dm-helpdesk-client.vercel.app",
+      "https://richpanel-assignment-weld.vercel.app/",
     ],
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: ["Content-Type", "Authorization"],
