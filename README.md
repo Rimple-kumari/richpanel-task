@@ -1,4 +1,4 @@
-# 📬 richpanel-task
+# 📬 Richpanel-task
 
 This is a full-stack web application built as part of a Richpanel interview assignment. The app integrates with the Facebook Graph API to fetch and respond to direct messages from users, mimicking helpdesk functionalities. It provides an organized UI for customer support agents to manage conversations efficiently.
 
