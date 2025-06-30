@@ -1,1 +1,1 @@
-export const backendUrl = "https://richpanel-task-junl.onrender.com";
+export const backendUrl = "http://localhost:5000";
