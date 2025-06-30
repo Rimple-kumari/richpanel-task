@@ -57,7 +57,7 @@ const DeleteDisconnect = () => {
               <input
                 type="submit"
                 value="Reply To Messages"
-                onClick={() => navigate("")}
+                onClick={() => navigate("https://assigment-richpanel-rimple.onrender.com/")}
               />
             </div>
           </div>
