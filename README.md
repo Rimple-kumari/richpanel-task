@@ -20,7 +20,28 @@ This is a full-stack web application built as part of a Richpanel interview assi
 ### 🔷 Frontend
 - React.js  
 - Tailwind CSS  
-- Axios  
+- Axios
+
+## 📁 screensort
+##Home (Registration Paage
+![image]( ![image](https://github.com/user-attachments/assets/124f56d6-4098-4fc3-9e89-b8333033ea50)
+)
+## login page 
+![image]( ![image](https://github.com/user-attachments/assets/c86f791f-ceaf-4dd2-bf99-402f834ab3b7)
+)
+## conect facebook page 
+![image]( ![image](https://github.com/user-attachments/assets/c6edf6f8-81bb-4cfb-9f20-a279be262655)
+)
+ 
+
+## connected Integrationpage 
+![image]( ![image](https://github.com/user-attachments/assets/3f13646c-c402-4efa-839f-21941401c7d2)
+)
+
+##  facebook chat  
+![image](![image](https://github.com/user-attachments/assets/3ff3ae4a-b59b-4468-ad40-c437d18cd714)
+)
+
 
 ### 🔶 Backend
 - Node.js  
@@ -93,26 +114,7 @@ Make sure your backend is exposed over HTTPS
 (Use ngrok during local development)
 
 Test sending and receiving messages from the Facebook Page
-## 📁 screensort
-##Home (Registration Paage
-![image]( ![image](https://github.com/user-attachments/assets/124f56d6-4098-4fc3-9e89-b8333033ea50)
-)
-## login page 
-![image]( ![image](https://github.com/user-attachments/assets/c86f791f-ceaf-4dd2-bf99-402f834ab3b7)
-)
-## conect facebook page 
-![image]( ![image](https://github.com/user-attachments/assets/c6edf6f8-81bb-4cfb-9f20-a279be262655)
-)
  
-
-## connected Integrationpage 
-![image]( ![image](https://github.com/user-attachments/assets/3f13646c-c402-4efa-839f-21941401c7d2)
-)
-
-##  facebook chat  
-![image](![image](https://github.com/user-attachments/assets/3ff3ae4a-b59b-4468-ad40-c437d18cd714)
-)
-
 🚀 Deployment
  the app using:
 
