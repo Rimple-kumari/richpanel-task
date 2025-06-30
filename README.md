@@ -106,8 +106,8 @@ Test sending and receiving messages from the Facebook Page
 ## 👩‍💻 Author & Contact
 
 **Rimple Kumari**  
-📧 Email: [kumari.rimple2021@gmail.com](mailto:kumari.rimple2021@gmail.com)  
-🔗 GitHub: [github.com/Rimple-kumari](https://github.com/Rimple-kumari)  
+📧 Email: (kumaririmple562@gmail.com
+🔗 GitHub: (https://github.com/Rimple-kumari)  
 🔗 LinkedIn: [linkedin.com/in/rimple-kumari-747734256](https://www.linkedin.com/in/rimple-kumari-747734256/)
 
 > If you have any queries, feel free to connect or reach out via email.
