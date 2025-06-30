@@ -66,7 +66,7 @@ bash
 Copy
 Edit
 npm run dev
-
+---
 ## 💻 **Frontend Setup**
 bash
 Copy
@@ -74,7 +74,7 @@ Edit
 cd client
 npm install
 npm start
-
+---
 ## 🔐 **Facebook App Setup**
 Create a Facebook App from Facebook for Developers.
 
@@ -91,7 +91,7 @@ pages_show_list
 pages_read_engagement
 
 Set the Webhook Callback URL and Verify Token in your app settings.
-
+---
 ##  🧪 **Testing**
 Use a test Facebook Page and test user account.
 
