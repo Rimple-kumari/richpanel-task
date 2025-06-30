@@ -1,28 +1,28 @@
-# 📬 richpanel-task
+# 📬 Richpanel-task
 
-This is a full-stack web application built as part of a Richpanel interview assignment. The app integrates with the Facebook Graph API to fetch and respond to direct messages from users, mimicking helpdesk functionalities. It provides an organized UI for customer support agents to manage conversations efficiently.
+This is a full-stack web application built as part of a Richpanel interview assignment. The app integrates with the **Facebook Graph API** to fetch and respond to direct messages from users, mimicking helpdesk functionalities. It provides an organized UI for customer support agents to manage conversations efficiently.
 
 ---
 
 ## 🚀 Features
 
-- 🔐 Facebook OAuth-based login & token handling  
-- 📥 Fetch Facebook Page messages using Graph API  
-- 📤 Reply to user DMs directly from the UI  
-- 🧠 Organized interface for viewing conversations  
-- 🌐 Real-time updates using polling (or extendable via WebSockets)  
-- ⚙️ Environment-based configuration using `.env` file  
+- 🔐 **Facebook OAuth-based login & token handling**  
+- 📥 **Fetch Facebook Page messages using Graph API**  
+- 📤 **Reply to user DMs directly from the UI**  
+- 🧠 **Organized interface for viewing conversations**  
+- 🌐 **Real-time updates using polling (or can be extended with sockets)**  
+- ⚙️ **Environment-based configuration using `.env` file**
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-### 🔷 Frontend
+### ✅ Frontend
 - React.js  
 - Tailwind CSS  
 - Axios  
 
-### 🔶 Backend
+### ✅ Backend
 - Node.js  
 - Express.js  
 - Facebook Graph API  
@@ -30,7 +30,7 @@ This is a full-stack web application built as part of a Richpanel interview assi
 
 ---
 
-## 📁 Folder Structure
+## 📂 Folder Structure
 
 richpanel-task/
 ├── client/ # React frontend
@@ -42,43 +42,45 @@ richpanel-task/
 ├── package.json
 └── README.md
 
- 
+yaml
+Copy
+Edit
+
 ---
 
-## ⚙️ Setup Instructions
-
-### 🔧 Backend Setup
+## 🧰 Backend Setup
 
 ```bash
 cd server
 npm install
+Create a .env file inside the server/ directory with the following content:
 
-Create a .env file inside the server/ directory with the following variables:
 PORT=5000
 FB_APP_ID=your_facebook_app_id
 FB_APP_SECRET=your_facebook_app_secret
 PAGE_ACCESS_TOKEN=your_page_access_token
 VERIFY_TOKEN=your_custom_verify_token
+Then run the backend:
 
-Run the backend server:
+bash
+Copy
+Edit
 npm run dev
 💻 Frontend Setup
-cd ../client
+bash
+Copy
+Edit
+cd client
 npm install
 npm start
-
 🔐 Facebook App Setup
-To connect with Facebook Messenger API:
+Create a Facebook App from Facebook for Developers.
 
-Go to Facebook for Developers
+Enable Messenger and Webhooks in the app.
 
-Create a new Facebook App
+Generate a Page Access Token.
 
-Enable Messenger and Webhooks
-
-Generate a Page Access Token
-
-Add required permissions:
+Subscribe the app to your Facebook Page with the following permissions:
 
 pages_messaging
 
@@ -86,28 +88,12 @@ pages_show_list
 
 pages_read_engagement
 
-Set your Webhook Callback URL and Verify Token in the app's dashboard
+Set the Webhook Callback URL and Verify Token in your app settings.
 
 🧪 Testing
-Use a test Facebook Page and test user
+Use a test Facebook Page and test user account.
 
-Make sure your backend is exposed over HTTPS (use ngrok during local development)
+Ensure your webhook endpoint is reachable via HTTPS (use ngrok for local testing).
 
-Send and receive DMs to verify API connectivity
-
-🚀 Deployment
-This app can be deployed using platforms like:
-
-Render (for backend)
-
-Vercel / Netlify (for frontend)
-
-Or use a full-stack deployment like Heroku
-
-Let me know if you'd like deployment steps included.
-
-👩‍💻 Author
-Rimple Kumari
-🔗 GitHub(https://github.com/Rimple-kumari)
-🔗 LinkedIn(https://www.linkedin.com/in/rimple-kumari-747734256/)
+Test sending and receiving DMs from the page interface.
 
