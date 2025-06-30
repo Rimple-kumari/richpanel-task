@@ -140,8 +140,3 @@ Test sending and receiving messages from the Facebook Page
 
 
 
-
-Ask ChatGPT
-
-
-
