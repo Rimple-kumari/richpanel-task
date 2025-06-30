@@ -61,13 +61,12 @@ PAGE_ACCESS_TOKEN=your_page_access_token
 VERIFY_TOKEN=your_custom_verify_token
 npm run dev
 ---
-##💻 Frontend Setup
-```bash
-Copy
-Edit
-cd ../client
+💻 Frontend Setup
+ cd ../client
 npm install
 npm start
+
+ 
 ##🔐 Facebook App Setup
 ```bash
 Create a Facebook App from Facebook for Developers.
