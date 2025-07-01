@@ -24,7 +24,7 @@ This is a full-stack web application built as part of a Richpanel interview assi
 
 ## 📁 screensort
 ##Registration Page
-[image](https://github.com/user-attachments/assets/124f56d6-4098-4fc3-9e89-b8333033ea50)
+![image](https://github.com/user-attachments/assets/124f56d6-4098-4fc3-9e89-b8333033ea50)
 
 ## login page 
 ![image](https://github.com/user-attachments/assets/c86f791f-ceaf-4dd2-bf99-402f834ab3b7)
