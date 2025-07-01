@@ -129,7 +129,7 @@ Test sending and receiving messages from the Facebook Page
 **Rimple Kumari**  
 📧 Email: (kumaririmple562@gmail.com
 🔗 GitHub: (https://github.com/Rimple-kumari)  
-🔗 LinkedIn: [linkedin.com/in/rimple-kumari-747734256](https://www.linkedin.com/in/rimple-kumari-747734256/)
+🔗 LinkedIn:(https://www.linkedin.com/in/rimple-kumari-747734256/)
 
 > If you have any queries, feel free to connect or reach out via email.
 
